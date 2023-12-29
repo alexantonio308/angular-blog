@@ -3,6 +3,8 @@
 .container__menu-bar > ul{
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+
 }
 
 .container__menu-bar > ul > li{
@@ -10,3 +12,7 @@
   list-style: none;
 }
 
+
+.container__icon {
+display: flex;
+justify-content: center;}

@@ -1,5 +1,61 @@
 <div class="container__menu-title">
-  <hr/>
-  <h1>MARVEL BLOG</h1>
-  <hr/>
+  <hr />
+
+  <div
+    id="carouselExampleSlidesOnly"
+    class="carousel slide"
+    data-bs-ride="carousel"
+  >
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <app-small-card
+          class="custom-photo d-block w-100"
+          Id="2"
+          cardTitle="Nova Série anunciada no Disney +"
+          photoCover="https://disneyplusbrasil.com.br/wp-content/uploads/2021/07/Series-Marvel-Disney-Plus-1024x576.jpg"
+        ></app-small-card>
+      </div>
+      <div class="carousel-item">
+        <app-small-card
+          class="custom-photo d-block w-100"
+          Id="3"
+          cardTitle="Novo filme do pantera negra lançado em breve"
+          photoCover="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/35720ACD323F927C3A83D809D0F460BD3651740DA519BCC184B6F042057EA14D/scale?width=1200&aspectRatio=1.78&format=jpeg"
+        >
+        </app-small-card>
+      </div>
+      <div class="carousel-item">
+        <app-big-card
+          class="custom-photo d-block w-100"
+          Id="1"
+          photoCover="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/7F51FA9F6CBD9F0C9B1394B1CC0A6A842D07091318674E234CD33CBF7C28CDC3/scale?width=1200&aspectRatio=1.78&format=jpeg"
+
+        >
+        </app-big-card>
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      class="carousel-control-prev"
+      href="#carouselExampleSlidesOnly"
+      role="button"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      class="carousel-control-next"
+      href="#carouselExampleSlidesOnly"
+      role="button"
+      data-bs-slide="next"
+    >
+      <span class="sr-only">Próximo</span>
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+  <hr />
 </div>

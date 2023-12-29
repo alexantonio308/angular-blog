@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
 *{
   margin:0;
   padding:0;
@@ -9,5 +11,31 @@
 }
 
 a{
-  text-decoration: none;
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.custom-photo {
+  display: flex !important;
+  flex-direction: row !important;
+  img {
+  width: 35rem !important;
+  height: auto !important;
+  }
+}
+.custom-photo {
+  .container__small-card {
+
+    width: 100% !important;
+    margin: 15px;
+    padding: 10px;
+  }
+}
+.custom-photo {
+  .container__big-card {
+
+    width: 35rem !important;
+    height: auto !important;
+
+}
 }
